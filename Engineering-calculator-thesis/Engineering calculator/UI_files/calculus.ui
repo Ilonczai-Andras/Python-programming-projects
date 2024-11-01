@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Calculus</class>
+ <widget class="QMainWindow" name="Calculus">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1525</width>
+    <height>843</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+            background-color: #2E2E2E;
+        }</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <family>Courier New</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel#label {
+            background-color: #1C1C1C;
+            font-size: 12pt;
+            font-family: 'Courier New', Courier, monospace;
+            color: #FFFFFF;
+        }</string>
+          </property>
+          <property name="text">
+           <string>Operation:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+          <property name="margin">
+           <number>5</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="styleSheet">
+           <string notr="true">QLineEdit#lineEdit_2{
+            background-color: #1C1C1C;
+            font-family: 'Courier New', Courier, monospace;
+            color: #FFFFFF;
+            font-size: 10pt;
+            width: 35px;
+            height: 30%;
+        }</string>
+          </property>
+          <property name="text">
+           <string>-10</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="styleSheet">
+           <string notr="true">QLineEdit#lineEdit_2, QLineEdit#lineEdit_3{
+            background-color: #1C1C1C;
+            font-family: 'Courier New', Courier, monospace;
+            color: #FFFFFF;
+            font-size: 10pt;
+            width: 35px;
+            height: 30%;
+        }</string>
+          </property>
+          <property name="text">
+           <string>10</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <property name="font">
+           <font>
+            <family>Courier New</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QComboBox {
+            background-color: #4E4E4E;
+            font-family: 'Courier New', Courier, monospace;
+            color: #FFFFFF;
+            border: 1px solid #555555;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        QComboBox#comboBox {
+        font-family: 'Courier New', Courier, monospace;
+        width: 330px;
+        }
+QComboBox QAbstractItemView {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #4E4E4E;
+            selection-background-color: #5E5E5E;
+            color: #FFFFFF;
+        }</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Increasing</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Strictly Increasing</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Decreasing</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Strictly Decreasing</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Monotonic</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Divergent</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Limit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Differentiation</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Integration</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="styleSheet">
+           <string notr="true">QLineEdit#lineEdit {
+            background-color: #1C1C1C;
+            font-family: 'Courier New', Courier, monospace;
+            color: #FFFFFF;
+            font-size: 10pt;
+            width: 35px;
+            height: 30%;
+        }</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+            background-color: #4E4E4E;
+            font-family: 'Courier New', Courier, monospace;
+            color: #FFFFFF;
+            font-size: 10pt;
+            border: 1px solid #555555;
+            border-radius: 10px;
+            padding: 10px;
+            width: 50px;
+            height: 35%;
+        }
+QPushButton:hover {
+            background-color: #5E5E5E;
+        }
+        QPushButton:pressed {
+            background-color: #6E6E6E;
+        }</string>
+          </property>
+          <property name="text">
+           <string>Enter</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout" stretch="1,7">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <family>Courier New</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel#label_2 {
+            background-color: #1C1C1C;
+            font-family: 'Courier New', Courier, monospace;
+            color: #FFFFFF;
+            border: 2px solid #555555;
+            border-radius: 5px;
+            padding: 10px;
+        }</string>
+          </property>
+          <property name="text">
+           <string>Result</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="canvaswidget" native="true"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
