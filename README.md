@@ -6,7 +6,9 @@ This repository contains a collection of Python programming projects developed t
 
 ## Projects
 
-### 1. rewrite it
+### 1. Engineering-calculator-thesis
+
+### 2. System-monitoring-program
 
 ---
 
